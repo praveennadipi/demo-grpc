@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "demo-grpc"
+  description: "demo-grpc"
+  annotations:
+    github.com/project-slug: praveennadipi/demo-grpc
+    backstage.io/techdocs-ref: url:https://github.com/praveennadipi/demo-grpc
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "praveennadipi"
